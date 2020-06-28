@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg00127417.mef.pasos.matriz.MatrixController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url(/pkg00127417/mef/pasos/fondo.jpg);-fx-background-position: center center; -fx-background-size: 100% 100%; -fx-background-repeat: stretch" stylesheets="@../../../fxml.css">
+         <children>
+            <Text fill="WHITE" layoutX="106.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEFINICION DE MATRICES" textAlignment="CENTER">
+               <font>
+                  <Font name="AR CENA" size="64.0" />
+               </font>
+            </Text>
+            <Button fx:id="button" layoutX="64.0" layoutY="525.0" mnemonicParsing="false" onAction="#paso8" prefHeight="48.0" prefWidth="202.0" text="PASO 8">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Pane layoutX="50.0" layoutY="100.0" prefHeight="200.0" prefWidth="700.0" style="-fx-background-image: url(/pkg00127417/mef/pasos/matriz/matrices.jpeg);-fx-background-position: center center; -fx-background-size: 100% 100%; -fx-background-repeat: stretch" />
+            <Button fx:id="button1" layoutX="500.0" layoutY="525.0" mnemonicParsing="false" onAction="#backMef" prefHeight="48.0" prefWidth="202.0" text="REGRESAR MEF">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button2" layoutX="100.0" layoutY="325.0" mnemonicParsing="false" onAction="#loadMatrixC" prefHeight="50.0" prefWidth="50.0" text="C">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button21" layoutX="200.0" layoutY="325.0" mnemonicParsing="false" onAction="#loadMatrixH" prefHeight="50.0" prefWidth="50.0" text="H">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button22" layoutX="300.0" layoutY="325.0" mnemonicParsing="false" onAction="#loadMatrixK" prefHeight="50.0" prefWidth="50.0" text="K">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button23" layoutX="400.0" layoutY="325.0" mnemonicParsing="false" onAction="#loadMatrixG" prefHeight="50.0" prefWidth="50.0" text="G">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button24" layoutX="500.0" layoutY="325.0" mnemonicParsing="false" onAction="#loadMatrixF" prefHeight="50.0" prefWidth="50.0" text="F">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button25" layoutX="600.0" layoutY="325.0" mnemonicParsing="false" onAction="#loadMatrixI" prefHeight="50.0" prefWidth="50.0" text="I">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button211" layoutX="250.0" layoutY="400.0" mnemonicParsing="false" onAction="#loadAlpha" prefHeight="50.0" prefWidth="50.0" text="α">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button212" layoutX="450.0" layoutY="400.0" mnemonicParsing="false" onAction="#loadBeta" prefHeight="50.0" prefWidth="50.0" text="β">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button221" layoutX="350.0" layoutY="400.0" mnemonicParsing="false" onAction="#loadDet" prefHeight="50.0" prefWidth="50.0" text="D">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,11 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.button {
+    -fx-background-color: linear-gradient(#184E68,#57CA85);
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+        
+}

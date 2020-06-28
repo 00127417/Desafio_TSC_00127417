@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg00127417.Home.HomeController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url(/pkg00127417/Home/fondo.jpg);" stylesheets="@../fxml_h.css">
+         <children>
+            <Button fx:id="button" layoutX="64.0" layoutY="200.0" mnemonicParsing="false" onAction="#loadModelo" prefHeight="60.0" prefWidth="200.0" text="MODELO">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="222.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido" textAlignment="CENTER">
+               <font>
+                  <Font name="AR CENA" size="96.0" />
+               </font>
+            </Text>
+            <Button fx:id="button1" layoutX="64.0" layoutY="350.0" mnemonicParsing="false" onAction="#loadDominio" prefHeight="60.0" prefWidth="202.0" text="DOMINIO">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button11" layoutX="64.0" layoutY="500.0" mnemonicParsing="false" onAction="#loadMalla" prefHeight="60.0" prefWidth="202.0" text="MALLA">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button12" layoutX="535.0" layoutY="200.0" mnemonicParsing="false" onAction="#loadCondiciones" prefHeight="60.0" prefWidth="200.0" text="CONDICIONES">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button13" layoutX="535.0" layoutY="350.0" mnemonicParsing="false" onAction="#loadMef" prefHeight="60.0" prefWidth="200.0" text="MEF">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="button14" layoutX="535.0" layoutY="500.0" mnemonicParsing="false" onAction="#exit" prefHeight="60.0" prefWidth="200.0" text="SALIR">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
