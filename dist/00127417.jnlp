@@ -7,8 +7,8 @@
     <offline-allowed/>
   </information>
   <resources>
-    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="00127417.jar" size="12897686" download="eager" />
+    <j2se version="1.6+" java-vm-args="-Xms1024m "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="00127417.jar" size="5856762" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="00127417" >
     <param name="requiredFXVersion" value="8.0+"/>

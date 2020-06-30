@@ -17,10 +17,8 @@
                   <Font name="AR CENA" size="96.0" />
                </font>
             </Text>
-            <Pane layoutX="50.0" layoutY="88.0" prefHeight="425.0" prefWidth="700.0">
-               <children>
-                  <ImageView fx:id="image" fitHeight="425.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true" />
-               </children></Pane>
+            <Pane layoutX="50.0" layoutY="88.0" prefHeight="425.0" prefWidth="700.0" style="-fx-background-image: url(/pkg00127417/mef/pasos/paso8/paso8.gif);-fx-background-position: center center; -fx-background-size: 100% 100%; -fx-background-repeat: stretch">
+               </Pane>
             <Button fx:id="button1" layoutX="550.0" layoutY="525.0" mnemonicParsing="false" onAction="#matrix" prefHeight="48.0" prefWidth="200.0" text="MATRIX DEF">
                <font>
                   <Font name="Cooper Black" size="18.0" />

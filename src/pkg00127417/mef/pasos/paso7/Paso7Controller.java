@@ -32,12 +32,12 @@ import javafx.util.Duration;
  */
 public class Paso7Controller implements Initializable {
 
-   @FXML
-    private ImageView image;
+   //@FXML
+    //private ImageView image;
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        Image pic = new Image(getClass().getResourceAsStream("/pkg00127417/mef/pasos/paso7/paso7.gif"));
-        image.setImage(pic);
+       // Image pic = new Image(getClass().getResourceAsStream("/pkg00127417/mef/pasos/paso7/paso.gif"));
+        //image.setImage(pic);
     }     
     @FXML
     private Button button;
